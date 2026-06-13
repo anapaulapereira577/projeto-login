@@ -66,6 +66,36 @@ div#formulario > p {
     font-size: 0.8em;
 }
 
+form > input[type=submit] {
+   display: block; 
+   font-size: 1em;
+   width: 100%;
+   height: 40px;
+   background-color: #be9aa2;
+   color: white;
+   border: none;
+   border-radius: 5px;
+}
+
+form > input[type=submit]:hover {
+    background-color: #8e8b63;
+}
+
+form > a.botao {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 100%;
+    height: 40px;
+    background-color: #8e8b63;
+    color: #ad4d50;
+    border: 1px solid #8b636c;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+
+
 
 
 
